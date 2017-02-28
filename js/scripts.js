@@ -11,6 +11,13 @@ $(Document).ready(function(){
     var favoriteThings = [name, animal, food, music, movie];
 
       // alert(favoriteThings);
-    $("#outputList").text(favoriteThings[3]);
+    $("#list1").append(favoriteThings);
+    var favoriteThings2 = [];
+
+    favoriteThings2.push(favoriteThings[1]);
+
+    $("#list2").append(favoriteThings2);
+
+
   });
 });

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Favorite Things</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Name some of your favorite things, ya goof!</h2>
+    <form id="favorite-things" class="questions">
+      <div class="form-group">
+        <label for="person1"><h3>Your name:</h3></label>
+        <input id="person1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="animal"><h3>Your favorite animal:</h3></label>
+        <input id="animal" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="food"><h3>Your favorite food:</h3></label>
+        <input id="food" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="music"><h3>Your favorite music:</h3></label>
+        <input id="music" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="movie"><h3>Your favorite movie:</h3></label>
+        <input id="movie" class="form-control" type="text">
+      </div>
+      <br>
+      <button type="submit" id="btn">Submit Answers!</button>
+    </form>
+    <div id="output">
+      <p>Your Favorite Things!</p>
+      <ul id="outputList">
+        <li></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
